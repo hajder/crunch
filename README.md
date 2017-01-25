@@ -3,7 +3,7 @@
 Facebook page likes and comments counter, discover your most active fans and users!
 ##	You will need 'git' installed.
 `git clone git@github.com:jdarc/crunch.git`
-# You will need 'ruby' installed/
+# You will need 'ruby' installed.
 This software was developed on Ubuntu 16.04 LTS using Ruby 2.3.1p112
 `ruby --version`
 ## Install bundler which will be managing all of the gems
