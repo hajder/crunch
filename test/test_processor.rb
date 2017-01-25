@@ -26,7 +26,6 @@ class TestProcessor < Test::Unit::TestCase
     assert_equal('1409411862721793,305736219467790,1335980433110025,photo,comment', result[2].join(','))
     assert_equal('10202962091028162,305736219467790,1335980433110025,photo,comment', result[3].join(','))
     assert_equal('1620750328181751,305736219467790,1335980433110025,photo,comment', result[4].join(','))
-
     assert_equal('967983879918499,107840939393927,705677142943634,link,reaction,LIKE', result[5].join(','))
     assert_equal('10204536764126610,107840939393927,705677142943634,link,reaction,LIKE', result[6].join(','))
   end
