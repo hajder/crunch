@@ -1,9 +1,9 @@
 require "./lib/crunch/processor.rb"
-require "test/unit"
+require "minitest/autorun"
 require "mocha/test_unit"
 require "json"
 
-class TestProcessor < Test::Unit::TestCase
+class TestProcessor < Minitest::Test
 
   def test_can_process_empty_payload
     result = Crunch::Processor::Facebook.new.process({})
